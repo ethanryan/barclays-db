@@ -1,7 +1,7 @@
 class Window
   include Mongoid::Document
   field :property_id, type: Integer
-  field :hourly-foot-traffic, type: Integer
-  field :hourly-vehicle-traffic, type: Integer
-  field :hourly-mobile-devices, type: Integer
+  field :hourly_foot_traffic, type: Integer
+  field :hourly_vehicle_traffic, type: Integer
+  field :hourly_mobile_devices, type: Integer
 end
